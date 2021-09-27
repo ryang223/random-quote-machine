@@ -10,11 +10,17 @@
 {
        "quote":"Perception is strong and sight weak. In strategy it is important to see distant things as if they were close and to take a distanced view of close things.","author":"Miyamoto Musashi"},
 
-    {
+{
         "quote": "Engage in combat fully determined to die and you will be alive; wish to survive in the battle and you will surely meet death.", "author":"Uesugi Kenshin"},
-    {
-    "quote":" A samurai should always be prepared for death – whether his own or someone else’s.","author":"Stan Sakai"},
-    {
-    "quote":"Sword and mind must be united.","author":"Yamada Jirokichi"}
+{
+        "quote":" A samurai should always be prepared for death – whether his own or someone else’s.","author":"Stan Sakai"},
+{
+        "quote":"Sword and mind must be united.","author":"Yamada Jirokichi"},
+{
+       "quote":"If you launch without vigor, seven out of every ten of your actions will not reach their target.","author":"Yamamoto Tsunetomo"},
+
+{
+       "quote":"The spiritual aspect of valor is evidenced by composure -the calm presence of mind. Tranquility is courage in repose.","author":"Inazo Nitobe"}
+		
 ]
 }
