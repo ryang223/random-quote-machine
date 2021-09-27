@@ -35,12 +35,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div id = "quote-box">
         <h1>Random Number: {randomNumber}</h1>
-        <button onClick={() => getRandomQuote()}> Generate A Random Quote</button>
-        <p>
+        <p id="text">
           {quote}
         </p>
-        <p> - {author}</p>
+        <p id="author">
+           - {author}
+           </p>
+           <button id="new-quote" onClick={() => getRandomQuote()}> Generate A Random Quote
+           </button>
+           <a id="tweet-quote" href=
+           {encodeURI(`https://twitter.com/intent/tweet?text=${quote} -${author}`)}>Tweet Quote</a>
+        </div>
       </header>
     </div>
   );
