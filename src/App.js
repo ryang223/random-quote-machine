@@ -43,7 +43,7 @@ return (
         </h2>
         <p id="author">- {author}</p>
         <div className="buttons">
-          <a id="tweet-quote" style={{ backgroundColor: accentColor }} href={encodeURI(`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text={quote} -${author}`)}><FontAwesomeIcon icon={faTwitter} /></a>
+          <a id="tweet-quote" href={encodeURI(`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quote} -${author}`)}><FontAwesomeIcon icon={faTwitter} />Tweet Quote</a>
           <button id="new-quote" style={{ backgroundColor: accentColor }} onClick={() => getRandomQuote()}>Generate A Random Quote</button>
         </div>
       </div>
