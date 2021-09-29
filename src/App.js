@@ -8,8 +8,8 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 let quoteDBUrl = "https://raw.githubusercontent.com/ryang223/random-quote-machine/main/quotes.json"
 
 function App() {
-  const[quote, setQuote] = useState("No fear, no hesitation, no surprise, no doubt.")
-  const[author, setAuthor] = useState("Miyamoto Musashi.")
+  const [quote, setQuote] = useState("No fear, no hesitation, no surprise, no doubt.")
+  const [author, setAuthor] = useState("Miyamoto Musashi.")
   const [randomNumber, setRandomNumber] = useState(0)
   const [quotesArray, setQuotesArray] = useState(null)
   const [accentColor, setAccentColor] = useState('#282c34')
